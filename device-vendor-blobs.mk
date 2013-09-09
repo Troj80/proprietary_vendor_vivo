@@ -68,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/vivo/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/vivo/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/vivo/proprietary/lib/libsurfaceflinger_client.so:/system/lib/libsurfaceflinger_client.so \
     vendor/htc/vivo/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/vivo/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/vivo/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
