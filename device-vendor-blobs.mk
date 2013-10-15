@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/bin/logcat2:/system/bin/logcat2 \
     vendor/htc/vivo/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/vivo/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/vivo/proprietary/etc/firmware/BCM4329B1_002.002.023.0589.0632.hcd:system/etc/firmware/BCM4329B1_002.002.023.0589.0632.hcd \
     vendor/htc/vivo/proprietary/etc/firmware/default.acdb:system/etc/firmware/default.acdb \
     vendor/htc/vivo/proprietary/etc/firmware/default_org.acdb:system/etc/firmware/default_org.acdb \
     vendor/htc/vivo/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
@@ -53,7 +52,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/vivo/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
     vendor/htc/vivo/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/vivo/proprietary/lib/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so \
+    vendor/htc/vivo/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/htc/vivo/proprietary/lib/hw/camera.default.so:/system/lib/hw/camera.default.so \
+    vendor/htc/vivo/proprietary/lib/hw/hwcomposer.msm7x30.so:/system/lib/hw/hwcomposer.msm7x30.so \
     vendor/htc/vivo/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
     vendor/htc/vivo/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/vivo/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
@@ -68,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/vivo/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/vivo/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
+    vendor/htc/vivo/proprietary/lib/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/vivo/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/vivo/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/vivo/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
